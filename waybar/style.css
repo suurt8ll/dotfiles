@@ -1,0 +1,52 @@
+@import url("./colors.css");
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @background;
+    color: @foreground;
+}
+
+tooltip {
+  background: @background;
+  border: 1px solid @foreground;
+}
+tooltip label {
+  color: @foreground;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: @foreground;
+}
+
+#workspaces button.focused {
+    background: #64727D;
+}
+
+#mode, #clock {
+    padding: 0 10px;
+}
+
+#mode {
+    background: #64727D;
+}
+
+#clock {
+    background-color: #64727D;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
