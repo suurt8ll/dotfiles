@@ -1,5 +1,5 @@
 --- base/base_config	2024-08-30 08:38:25.341989847 +0300
-+++ config	2024-08-30 10:12:33.077238948 +0300
++++ config	2024-08-30 10:15:39.021096932 +0300
 @@ -3,12 +3,21 @@
      "position": "bottom",
      "modules-left": ["sway/workspaces", "sway/mode"],
@@ -19,7 +19,7 @@
 +    "backlight": {
 +        "device": "intel_backlight",
 +        "format": "{percent}% {icon}",
-+        "format-icons": ["", ""]
++        "format-icons": ["", ""]
      }
  }
  
