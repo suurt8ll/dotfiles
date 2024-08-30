@@ -1,0 +1,18 @@
+--- base/base_config	2024-08-30 08:20:17.851128330 +0300
++++ config	2024-08-30 08:20:06.157951503 +0300
+@@ -3,10 +3,14 @@
+     "position": "bottom",
+     "modules-left": ["sway/workspaces", "sway/mode"],
+     "modules-center": ["sway/window"],
+-    "modules-right": ["clock"],
++    "modules-right": ["battery", "clock"],
+     "sway/window": {
+         "max-length": 50
+     },
++    "battery": {
++        "format": "{capacity}% {icon}",
++        "format-icons": ["", "", "", "", ""]
++    },
+     "clock": {
+         "format-alt": "{:%a, %d. %b  %H:%M}"
+     }
