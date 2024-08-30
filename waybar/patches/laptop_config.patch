@@ -1,6 +1,6 @@
---- base/base_config	2024-08-30 08:20:17.851128330 +0300
-+++ config	2024-08-30 08:20:06.157951503 +0300
-@@ -3,10 +3,14 @@
+--- base/base_config	2024-08-30 08:38:25.341989847 +0300
++++ config	2024-08-30 10:00:19.052885466 +0300
+@@ -3,12 +3,21 @@
      "position": "bottom",
      "modules-left": ["sway/workspaces", "sway/mode"],
      "modules-center": ["sway/window"],
@@ -15,4 +15,11 @@
 +    },
      "clock": {
          "format-alt": "{:%a, %d. %b  %H:%M}"
++    },
++    "backlight": {
++        "device": "intel_backlight",
++        "format": "{percent}% {icon}",
++        "format-icons": ["", ""]
      }
+ }
+ 

@@ -1,15 +1,20 @@
---- base/base_style.css	2024-08-30 08:18:02.579648110 +0300
-+++ style.css	2024-08-30 08:30:52.659263640 +0300
+--- base/base_style.css	2024-08-30 08:38:25.341989847 +0300
++++ style.css	2024-08-30 10:01:43.978206854 +0300
 @@ -31,7 +31,7 @@
      background: #64727D;
  }
  
 -#mode, #clock {
-+#mode, #clock, #battery {
++#mode, #clock, #battery, #backlight {
      padding: 0 10px;
  }
  
-@@ -43,6 +43,16 @@
+@@ -39,10 +39,20 @@
+     background: #64727D;
+ }
+ 
+-#clock {
++#clock, #backlight {
      background-color: #64727D;
  }
  
@@ -26,7 +31,7 @@
  @keyframes blink {
      to {
          background-color: #ffffff;
-@@ -50,3 +60,13 @@
+@@ -50,3 +60,15 @@
      }
  }
  
@@ -39,4 +44,6 @@
 +    animation-iteration-count: infinite;
 +    animation-direction: alternate;
 +}
++
++
 +
