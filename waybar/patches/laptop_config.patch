@@ -1,11 +1,11 @@
 --- base/base_config	2024-08-30 08:38:25.341989847 +0300
-+++ config	2024-08-30 10:00:19.052885466 +0300
++++ config	2024-08-30 10:12:33.077238948 +0300
 @@ -3,12 +3,21 @@
      "position": "bottom",
      "modules-left": ["sway/workspaces", "sway/mode"],
      "modules-center": ["sway/window"],
 -    "modules-right": ["clock"],
-+    "modules-right": ["battery", "clock"],
++    "modules-right": ["backlight", "battery", "clock"],
      "sway/window": {
          "max-length": 50
      },
